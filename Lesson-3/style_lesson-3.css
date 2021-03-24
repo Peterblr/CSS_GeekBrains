@@ -1,0 +1,36 @@
+.heading {
+  color: purple;
+}
+
+.back-gray {
+  background-color: red;
+}
+.input {
+  color: rgb(19, 56, 158);
+}
+
+.block {
+  width: 80%;
+  height: 800px;
+  border: 1px solid #000;
+  background-color: #ccc;
+  background-image: url(img/IMG_20201207_111531.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+.text {
+  color: green;
+  font-family: serif;
+}
+
+.headinng {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+}
