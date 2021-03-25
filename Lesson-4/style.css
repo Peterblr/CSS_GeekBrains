@@ -1,0 +1,117 @@
+.header {
+  background-color: #ccc;
+}
+
+.text-red {
+  color: red;
+}
+
+.footer {
+  background-color: grey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blok {
+  border: 1px solid #000;
+  width: 350px;
+  height: 250px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 48px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+/* схлопывание - когда один параметр наезжает на другой */
+
+.hd {
+  margin-top: 50px;
+}
+
+.block-float {
+  width: 150px;
+  height: 150px;
+  border: 5px solid red;
+  float: left;
+}
+
+.hdd {
+  border: 3px solid blue;
+  overflow: hidden;
+}
+
+.footer1 {
+  height: 50px;
+  background-color: grey;
+  clear: both;
+}
+
+.menu__list {
+  list-style-type: none;
+  border: 3px solid blue;
+  width: 300px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.menu__list:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.menu__list:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.menu__list:hover .menu__link {
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: red;
+}
+
+.menu__link:active {
+  color: seagreen;
+}
+
+.menu__li:nth-child(3)::after {
+  content: "  super new";
+  color: red;
+}
+
+.menu__li::before {
+  content: "* ";
+  color: orange;
+}
+
+.menu__li:hover::after {
+  content: "<<";
+}
+
+.product {
+  width: 250px;
+  border: 1px solid orchid;
+}
+
+.product_new::after {
+  content: "new";
+  text-transform: uppercase;
+  color: royalblue;
+}
+
+.product__img {
+  height: 150px;
+  background-color: forestgreen;
+}
+
+.text5::first-letter {
+  color: red;
+  font-size: 24px;
+}
