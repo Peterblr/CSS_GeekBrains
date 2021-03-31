@@ -1,0 +1,25 @@
+.contener {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+}
+
+.block {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+  /* flex-grow: 1; */
+}
+
+.block-1 {
+  flex-grow: 2;
+  order: 1;
+}
+
+.text {
+  flex-grow: 1;
+  flex-basis: 800px;
+}

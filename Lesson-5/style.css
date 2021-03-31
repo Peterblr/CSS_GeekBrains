@@ -1,0 +1,10 @@
+.block {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+  display: inline;
+}
+
+.block-1 {
+  visibility: hidden;
+}
