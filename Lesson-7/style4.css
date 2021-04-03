@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  flex-grow: 1;
+}
+
+.header {
+  height: 200px;
+  background: red;
+}
+
+.footer {
+  height: 200px;
+  background: rgb(82, 8, 8);
+}

@@ -1,0 +1,20 @@
+.header {
+  height: 100px;
+  background: red;
+}
+
+/* медиазапрос */
+@media (max-width: 500px) {
+  .header {
+    background: blue;
+  }
+}
+.b {
+  background-color: saddlebrown;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .b {
+    display: none;
+  }
+}
